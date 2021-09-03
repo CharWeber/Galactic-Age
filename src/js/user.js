@@ -11,12 +11,12 @@ export default class User {
   // Math.round(100*X)/100
 
   venusCalc() {
-    this.venAge = Math.floor(this.age / 0.62);
+    this.venAge = Math.round((this.age / 0.62)*100)/100;
     return this.venAge
   }
 
   marsCalc() {
-    this.marsAge = Math.floor(this.age / 1.88)
+    this.marsAge = Math.round((this.age / 1.88)*100)/100;
     return this.marsAge
   }
 
