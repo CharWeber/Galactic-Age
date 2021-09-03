@@ -44,9 +44,11 @@ describe("User", () => {
     expect(newUser.satAge).toEqual(1325)
   })
 
-
-
   //test #7 uranus 84.01
+  test('should correctly determine age on Uranus {84.01 earth years}', () =>{
+    newUser.UranusCalc();
+    expect(newUser.uranusAge).toEqual(3780)
+  })
   //test #8 neptune 164.79
   //test #9 pluto 248.59
 })
