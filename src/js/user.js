@@ -23,4 +23,11 @@ export default class User {
     this.jupiterAge = Math.floor(this.age * 11.86)
     return this.jupiterAge
   }
+
+  satCalc() {
+    this.satAge = Math.floor(this.age * 29.46)
+    return this.satAge
+  }
+
+  
 }
