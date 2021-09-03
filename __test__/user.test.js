@@ -52,7 +52,7 @@ describe("User", () => {
   //test #8 neptune 164.79
   test('should correctly determine age on neptune {164.79 earth years} rounded to the nearest hundreth', () => {
     newUser.nepCalc();
-    expect(newUser.nepAge).toEqual(7415)
+    expect(newUser.nepAge).toEqual(0.27)
   })
   //test #9 pluto 248.59
   test('should correctly determine age on pluto {248.59 earth years} rounded to the nearest hundreth', () => {

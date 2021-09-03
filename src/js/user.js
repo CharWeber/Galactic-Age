@@ -35,7 +35,7 @@ export default class User {
     return this.uranusAge
   }
   nepCalc() {
-    this.nepAge = Math.floor(this.age * 164.79)
+    this.nepAge = Math.round((this.age / 164.79)*100)/100;
     return this.nepAge
   }
 
