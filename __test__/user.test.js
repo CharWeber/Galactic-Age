@@ -27,8 +27,14 @@ describe("User", () => {
   })
 
   // test #4
-  test("should correctly determine age on mars {1.88 earth years)", () => {
+  test("should correctly determine age on mars {1.88 earth years}", () => {
     newUser.marsCalc();
     expect(newUser.marsAge).toEqual(84)
+  })
+
+  // test #5
+  test('should correctly determine age on jupiter {11.86 earth years}', () => {
+    newUser.jupiterCalc();
+    expect(newUser.jupiterAge).toEqual(533)
   })
 })
