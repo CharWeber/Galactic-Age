@@ -5,7 +5,7 @@ export default class User {
   }
 
   mercuryCalc() {
-    this.mercAge = Math.floor(this.age * 0.24);
+    this.mercAge = Math.floor(this.age / 0.24);
     return this.mercAge
   }
 
