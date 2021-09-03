@@ -5,7 +5,7 @@ describe("User", () => {
   let newUser;
 
   beforeEach(() => {
-  newUser = new User("Steven", "45", "80")
+  newUser = new User("Steven", "45", "90")
   newUser.lifeExpectCalc()
   })
 
@@ -63,14 +63,14 @@ describe("User", () => {
 
   //test#10
   test('should correcty create life expect property amd days left...', () =>{
-    expect(newUser.lifeExpect).toEqual(80)
-    expect(newUser.yearsLeft).toEqual(35)
-    expect(newUser.daysLeft).toEqual(12775)
+    expect(newUser.lifeExpect).toEqual(90)
+    expect(newUser.yearsLeft).toEqual(45)
+    expect(newUser.daysLeft).toEqual(16425)
   })
 
   //test#11 LIFE EXPECTANCY TESTS
   test('should correctly determine years left on mercury', () => {
     newUser.mercuryCalc();
-    expect(newUser.mercYearsLeft).toEqual()
+    expect(newUser.mercYearsLeft).toEqual(187.50)
   })
 })
