@@ -59,4 +59,12 @@ describe("User", () => {
     newUser.plutoCalc();
     expect(newUser.plutoAge).toEqual(0.18)
   })
+
+  //test#10
+  test('should correcty create life expect property amd days left...', () =>{
+    newUser.lifeExpectCalc(80)
+    expect(newUser.lifeExpect).toEqual(80)
+    expect(newUser.yearsLeft).toEqual(35)
+    expect(newUser.daysLeft).toEqual(12775)
+  })
 })

@@ -43,4 +43,11 @@ export default class User {
     this.plutoAge = Math.round((this.age / 248.59)*100)/100;
     return this.plutoAge
   }
+  
+  lifeExpectCalc(expectAge){
+    this.lifeExpect = parseInt(expectAge);
+    this.yearsLeft = this.lifeExpect - this.age
+    this.daysLeft = this.yearsLeft * 365
+    
+  }
 }
