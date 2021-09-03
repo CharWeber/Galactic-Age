@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import User from './../src/js/user.js'
+import User from './../src/js/user.js';
 
 function planetCalc(userToCalc) {
   userToCalc.lifeExpectCalc();
@@ -37,9 +37,9 @@ $(document).ready(function(){
     const age = $("#user-age").val();
     const lifeExpect = $("#user-life-expect").val();
     
-    let myUser = new User(name, age, lifeExpect)
+    let myUser = new User(name, age, lifeExpect);
     planetCalc(myUser);
     planetDisplay(myUser);
     
-  })
-})
+  });
+});

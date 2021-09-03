@@ -6,47 +6,55 @@
 </head>
 <body>
 <div class="container mx-auto">
-  <div id="form-submission text-center">
-    <h1>Galactic Death Generator!</h1>
-    <h3> worried about how much time is left?</h3>
-    <h4>there could be more time in SPACE!</h4>
-    <form action="submit" id="user-info">
-      <label for="user-name">Input your Name</label>
-      <input type="text" id="user-name">
-      <br>
-      <label for="user-age">Input your age</label>
-      <input type="number" id="user-age">
-      <br>
-      <label for="user-life-expect">Input when you think you are going to die ;)</label>
-      <input type="number" id="user-life-expect">
-      <br>
-      <button type="submit" id="user-info-submit">How much life is left for me in space?</button>
-    </form>
+  <div class="card">
+    <div id="form-submission">
+      <h1>Galactic Death Generator!</h1>
+      <h3> worried about how much time is left?</h3>
+      <h4>there could be more time in SPACE!</h4>
+      <form action="submit" id="user-info">
+        <label for="user-name">Input your Name</label>
+        <input type="text" id="user-name">
+        <br>
+        <label for="user-age">Input your age</label>
+        <input type="number" id="user-age">
+        <br>
+        <label for="user-life-expect">Input when you think you are going to die ;)</label>
+        <input type="number" id="user-life-expect">
+        <br>
+        <button type="submit" id="user-info-submit">How much life is left for me in space?</button>
+      </form>
+    </div>
   </div>
-  <div id="planets" class="hidden">
-    <div id="mercury">
-      <h4 id="merc-out">Mercury</h4>
-    </div>
-    <div id="venus">
-      <h4 id="venus-out">Venus</h4>
-    </div>
-    <div id="mars">
-      <h4 id="mars-out">Mars</h4>
-    </div>
-    <div id="jupiter">
-      <h4 id="jupiter-out">Jupiter</h4>
-    </div>
-    <div id="saturn">
-      <h4 id="saturn-out">Saturn</h4>
-    </div>
-    <div id="uranus">
-      <h4 id="uranus-out">Uranus</h4>
-    </div>
-    <div id="neptune">
-      <h4 id="nep-out">Neptune</h4>
-    </div>
-    <div id="pluto">
-      <h4 id="pluto-out">Pluto</h4>
+  <div id="planets" class="card hidden">
+    <div class="row">
+      <div class="col-6">
+        <div id="mercury">
+          <h4 id="merc-out">Mercury</h4>
+        </div>
+        <div id="venus">
+          <h4 id="venus-out">Venus</h4>
+        </div>
+        <div id="mars">
+          <h4 id="mars-out">Mars</h4>
+        </div>
+        <div id="jupiter">
+          <h4 id="jupiter-out">Jupiter</h4>
+        </div>
+      </div>
+      <div class="col-6">
+        <div id="saturn">
+          <h4 id="saturn-out">Saturn</h4>
+        </div>
+        <div id="uranus">
+          <h4 id="uranus-out">Uranus</h4>
+        </div>
+        <div id="neptune">
+          <h4 id="nep-out">Neptune</h4>
+        </div>
+        <div id="pluto">
+          <h4 id="pluto-out">Pluto</h4>
+        </div>
+      </div>
     </div>
   </div>
 </div>

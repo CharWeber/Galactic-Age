@@ -1,6 +1,6 @@
 export default class User {
   constructor(name, age, expectAge){
-    this.name = name
+    this.name = name;
     this.age = parseInt(age);
     this.lifeExpect = parseInt(expectAge);
   }
@@ -34,6 +34,7 @@ export default class User {
     this.uranusAge = Math.round((this.age / 84.01)*100)/100;
     this.uranusYearsLeft = Math.round((this.yearsLeft/84.01)*100)/100;
   }
+
   nepCalc() {
     this.nepAge = Math.round((this.age / 164.79)*100)/100;
     this.nepYearsLeft = Math.round((this.yearsLeft/164.79)*100)/100;
@@ -45,7 +46,7 @@ export default class User {
   }
   
   lifeExpectCalc(){
-    this.yearsLeft = this.lifeExpect - this.age
-    this.daysLeft = this.yearsLeft * 365
+    this.yearsLeft = this.lifeExpect - this.age;
+    this.daysLeft = this.yearsLeft * 365;
   }
 }
