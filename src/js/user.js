@@ -5,9 +5,10 @@ export default class User {
   }
 
   mercuryCalc() {
-    this.mercAge = Math.floor(this.age / 0.24);
+    this.mercAge = Math.round((this.age / 0.24)*100)/100;
     return this.mercAge
   }
+  // Math.round(100*X)/100
 
   venusCalc() {
     this.venAge = Math.floor(this.age / 0.62);
@@ -15,7 +16,7 @@ export default class User {
   }
 
   marsCalc() {
-    this.marsAge = Math.floor(this.age * 1.88)
+    this.marsAge = Math.floor(this.age / 1.88)
     return this.marsAge
   }
 

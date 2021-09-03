@@ -17,7 +17,7 @@ describe("User", () => {
   //test #2
   test('should correctly determine age on mercury {.24 earth years}', () =>{
     newUser.mercuryCalc();
-    expect(newUser.mercAge).toEqual(187)
+    expect(newUser.mercAge).toEqual(187.50)
   })
 
   //test #3
@@ -29,7 +29,7 @@ describe("User", () => {
   // test #4
   test("should correctly determine age on mars {1.88 earth years}", () => {
     newUser.marsCalc();
-    expect(newUser.marsAge).toEqual(84)
+    expect(newUser.marsAge).toEqual(23)
   })
 
   // test #5
