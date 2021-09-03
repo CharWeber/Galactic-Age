@@ -13,4 +13,9 @@ export default class User {
     this.venAge = Math.floor(this.age * 0.62);
     return this.venAge
   }
+
+  marsCalc() {
+    this.marsAge = Math.floor(this.age * 1.88)
+    return this.marsAge
+  }
 }
