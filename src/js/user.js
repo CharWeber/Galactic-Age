@@ -36,7 +36,7 @@ export default class User {
   }
   nepCalc() {
     this.nepAge = Math.round((this.age / 164.79)*100)/100;
-    this.nepYearsLeft = Math.round((this.yearsLeft/0.24)*100)/100;
+    this.nepYearsLeft = Math.round((this.yearsLeft/164.79)*100)/100;
   }
 
   plutoCalc() {
