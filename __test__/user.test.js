@@ -47,7 +47,7 @@ describe("User", () => {
   //test #7 uranus 84.01
   test('should correctly determine age on Uranus {84.01 earth years} rounded to the nearest hundreth', () =>{
     newUser.uranusCalc();
-    expect(newUser.uranusAge).toEqual(3780)
+    expect(newUser.uranusAge).toEqual(0.54)
   })
   //test #8 neptune 164.79
   test('should correctly determine age on neptune {164.79 earth years} rounded to the nearest hundreth', () => {
