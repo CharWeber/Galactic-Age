@@ -67,4 +67,10 @@ describe("User", () => {
     expect(newUser.yearsLeft).toEqual(35)
     expect(newUser.daysLeft).toEqual(12775)
   })
+
+  //test#11 LIFE EXPECTANCY TESTS
+  test('should correctly determine years left on mercury', () => {
+    newUser.mercuryCalc();
+    expect(newUser.mercYearsLeft).toEqual()
+  })
 })
