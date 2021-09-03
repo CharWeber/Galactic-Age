@@ -10,7 +10,7 @@ export default class User {
   }
 
   venusCalc() {
-    this.venAge = Math.floor(this.age * 0.62);
+    this.venAge = Math.floor(this.age / 0.62);
     return this.venAge
   }
 

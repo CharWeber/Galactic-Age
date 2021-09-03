@@ -23,7 +23,7 @@ describe("User", () => {
   //test #3
   test('should correctly determin age on venus {.62 earth years}', () => {
     newUser.venusCalc();
-    expect(newUser.venAge).toEqual(27)
+    expect(newUser.venAge).toEqual(72)
   })
 
   // test #4
