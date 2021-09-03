@@ -29,5 +29,8 @@ export default class User {
     return this.satAge
   }
 
-  
+  uranusCalc() {
+    this.uranusAge = Math.floor(this.age * 84.01)
+    return this.uranusAge
+  }
 }
