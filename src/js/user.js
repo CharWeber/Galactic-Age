@@ -40,7 +40,7 @@ export default class User {
   }
 
   plutoCalc() {
-    this.plutoAge = Math.floor(this.age * 248.59)
+    this.plutoAge = Math.round((this.age / 248.59)*100)/100;
     return this.plutoAge
   }
 }

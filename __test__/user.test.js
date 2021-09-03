@@ -57,6 +57,6 @@ describe("User", () => {
   //test #9 pluto 248.59
   test('should correctly determine age on pluto {248.59 earth years} rounded to the nearest hundreth', () => {
     newUser.plutoCalc();
-    expect(newUser.plutoAge).toEqual(11186)
+    expect(newUser.plutoAge).toEqual(0.18)
   })
 })
