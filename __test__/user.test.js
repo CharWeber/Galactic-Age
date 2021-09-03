@@ -35,7 +35,7 @@ describe("User", () => {
   // test #5
   test('should correctly determine age on jupiter {11.86 earth years} rounded to the nearest hundreth', () => {
     newUser.jupiterCalc();
-    expect(newUser.jupiterAge).toEqual(533)
+    expect(newUser.jupiterAge).toEqual(3.79)
   })
 
   //test #6

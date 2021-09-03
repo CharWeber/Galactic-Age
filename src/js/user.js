@@ -21,7 +21,7 @@ export default class User {
   }
 
   jupiterCalc() {
-    this.jupiterAge = Math.floor(this.age * 11.86)
+    this.jupiterAge = Math.round((this.age / 11.86)*100)/100;
     return this.jupiterAge
   }
 
