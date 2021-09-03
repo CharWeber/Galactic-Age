@@ -26,7 +26,7 @@ export default class User {
   }
 
   satCalc() {
-    this.satAge = Math.floor(this.age * 29.46)
+    this.satAge = Math.round((this.age / 29.46)*100)/100;
     return this.satAge
   }
 

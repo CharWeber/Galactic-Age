@@ -41,7 +41,7 @@ describe("User", () => {
   //test #6
   test('should correctly determine age on saturn {29.46 earth years} rounded to the nearest hundreth', () => {
     newUser.satCalc();
-    expect(newUser.satAge).toEqual(1325)
+    expect(newUser.satAge).toEqual(1.53)
   })
 
   //test #7 uranus 84.01
