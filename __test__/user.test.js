@@ -5,7 +5,8 @@ describe("User", () => {
   let newUser;
 
   beforeEach(() => {
-  newUser = new User("Steven", "45")
+  newUser = new User("Steven", "45", "80")
+  newUser.lifeExpectCalc()
   })
 
   // test #1
@@ -62,7 +63,6 @@ describe("User", () => {
 
   //test#10
   test('should correcty create life expect property amd days left...', () =>{
-    newUser.lifeExpectCalc(80)
     expect(newUser.lifeExpect).toEqual(80)
     expect(newUser.yearsLeft).toEqual(35)
     expect(newUser.daysLeft).toEqual(12775)

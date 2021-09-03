@@ -1,7 +1,8 @@
 export default class User {
-  constructor(name, age){
+  constructor(name, age, expectAge){
     this.name = name
-    this.age = parseInt(age)
+    this.age = parseInt(age);
+    this.lifeExpect = parseInt(expectAge);
   }
 
   mercuryCalc() {
@@ -44,10 +45,8 @@ export default class User {
     return this.plutoAge
   }
   
-  lifeExpectCalc(expectAge){
-    this.lifeExpect = parseInt(expectAge);
+  lifeExpectCalc(){
     this.yearsLeft = this.lifeExpect - this.age
     this.daysLeft = this.yearsLeft * 365
-    
   }
 }
