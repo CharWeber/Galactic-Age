@@ -37,4 +37,16 @@ describe("User", () => {
     newUser.jupiterCalc();
     expect(newUser.jupiterAge).toEqual(533)
   })
+
+  //test #6
+  test('should correctly determine age on saturn {29.46 earth years}', () => {
+    newUser.satCalc();
+    expect(newUser.satAge).toEqual(1325)
+  })
+
+
+
+  //test #7 uranus 84.01
+  //test #8 neptune 164.79
+  //test #9 pluto 248.59
 })
