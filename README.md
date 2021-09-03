@@ -1,8 +1,8 @@
-# _{template-repo}_
+# _{Galactic Age}_
 
-#### _{Brief description of application}_
+#### _{discover what the users age would be if they lived on other planets}_
 
-#### By _**{List of contributors}**_
+#### By _**{Charlie Weber}**_
 
 ## Technologies Used
 
