@@ -19,4 +19,10 @@ describe("User", () => {
     newUser.mercuryAge();
     expect(newUser.mercAge).toEqual(10)
   })
+
+  //test #3
+  test('should correctly determin age on venus {.62 earth years}', () => {
+    newUser.venusAge();
+    expect(newUser.venAge).toEqual(27)
+  })
 })
