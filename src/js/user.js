@@ -18,4 +18,9 @@ export default class User {
     this.marsAge = Math.floor(this.age * 1.88)
     return this.marsAge
   }
+
+  jupiterCalc() {
+    this.jupiterAge = Math.floor(this.age * 11.86)
+    return this.jupiterAge
+  }
 }
