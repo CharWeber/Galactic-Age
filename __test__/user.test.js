@@ -55,4 +55,8 @@ describe("User", () => {
     expect(newUser.nepAge).toEqual(7415)
   })
   //test #9 pluto 248.59
+  test('should correctly determine age on pluto {248.59 earth years}', () => {
+    newUser.plutoCalc();
+    expect(newUser.plutoAge).toEqual(11186)
+  })
 })

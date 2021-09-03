@@ -37,4 +37,9 @@ export default class User {
     this.nepAge = Math.floor(this.age * 164.79)
     return this.nepAge
   }
+
+  plutoCalc() {
+    this.plutoAge = Math.floor(this.age * 248.59)
+    return this.plutoAge
+  }
 }
